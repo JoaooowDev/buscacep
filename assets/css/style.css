@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+body {
+    background-color: #30334E;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#CEP {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.44);
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+#Buscar {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: white;
+    width: 130px;
+    height: 50px;
+    background: #666CFF;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin-left: 12px;
+}
+
+.cont2 {
+    margin-top: 17px;
+    width: 449px;
+    height: 487px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #7F889B;
+    box-shadow: 0px 20.5833px 6.86111px -13.7222px rgba(20, 21, 33, 0.2), 0px 13.7222px 13.7222px rgba(20, 21, 33, 0.14), 0px 6.86111px 34.3056px rgba(20, 21, 33, 0.12);
+    border-radius: 12px;
+}
+
+.inputs {
+    padding-left: 20px;
+    width: 300px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.44);
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+p {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.joao {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
